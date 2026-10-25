@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="OPERATION: BLACKOUT — a first-person 3D browser heist game." />
+    <title>OPERATION: BLACKOUT</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%230a0e14'/%3E%3Crect x='3' y='3' width='10' height='10' fill='%234dffa6'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="/src/ui/styles.css" />
+  </head>
+  <body>
+    <canvas id="game" class="game-canvas" tabindex="0" aria-label="Game view"></canvas>
+    <div id="ui" class="ui-root" role="main"></div>
+    <div id="overlay" class="overlay-root" aria-live="polite"></div>
+    <div id="hud-host" class="hud-host"></div>
+    <div id="hack-host" class="hack-host"></div>
+    <div id="boot" class="boot">
+      <div class="boot-inner">
+        <div class="boot-title">OPERATION: BLACKOUT</div>
+        <div class="boot-status" id="boot-status">Loading systems…</div>
+        <noscript>This game needs JavaScript and WebGL.</noscript>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

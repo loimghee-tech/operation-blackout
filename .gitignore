@@ -1,0 +1,8 @@
+node_modules/
+dist/
+coverage/
+.vite/
+*.log
+# Rocketbox binaries are fetched on demand by `npm run fetch-assets` (MIT, ~20 MB).
+# Keeping them out of git keeps the repo light; the game runs without them.
+public/assets/models/rocketbox/
